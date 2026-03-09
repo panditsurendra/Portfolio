@@ -80,7 +80,7 @@
 
 
 import React from 'react';
-import { Code2, Globe, Wrench } from 'lucide-react';
+import { Code2, Database, Globe, Wrench } from 'lucide-react';
 
 const Skills = () => {
   const skillSets = [
@@ -92,12 +92,17 @@ const Skills = () => {
     {
       title: "Web Development",
       icon: <Globe className="w-6 h-6 text-white" />,
-      skills: ["HTML", "CSS", "React.js", "Node.js", "MERN Stack"]
+      skills: ["HTML", "CSS", "React.js", "Node.js", "Express.js"]
     },
     {
       title: "Tools & Technologies",
       icon: <Wrench className="w-6 h-6 text-white" />,
-      skills: ["Postman", "pgAdmin", "Database Management"]
+      skills: ["Postman", "pgAdmin", "VS Code", "Git", "GitHub"]
+    },
+    {
+      title: "Database Systems",
+      icon: <Database className="w-6 h-6 text-white" />,
+      skills: ["SQL", "MongoDB", "PostgreSQL"]
     }
   ];
 

@@ -133,7 +133,7 @@ const Projects = () => {
     {
     title: "URL Shortener",
     desc: "A backend-focused application that converts long URLs into condensed, manageable links using hashing algorithms and custom aliasing.",
-    tags: ["NODE.JS", "EXPRESS", "MONGODB", "NPM"],
+    tags: ["NODE.JS", "EXPRESS", "MONGODB","REACT.JS", "NPM"],
     icon: <Link className="w-20 h-20 text-white/50" />, // Make sure to import 'Link' from lucide-react
     liveLink: "#",   
     githubLink: "https://github.com/panditsurendra/URL-Shortner", 
